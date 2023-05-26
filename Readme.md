@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Валерия](https://up.htmlacademy.ru/htmlcss/37/user/2094799).
-* Наставник: `Неизвестно`.
+* Студент: [Валерия] (https://up.htmlacademy.ru/htmlcss/37/user/2094799).
+* Наставник: [Наталья Зотова](https://htmlacademy.ru/profile/id1079951).
 
 ---
 
