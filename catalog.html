@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>HTML academy:Седона</title>
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
-
 <body>
-
     <header class="page-header" >
         <nav class="navigation">
             <a class="logo" href="index.html">
@@ -32,7 +30,7 @@
                 </li>
                 <li class="user-item">
                     <a class="user-link user-link-favorites" href="#">
-                        <span class="user-favorites-number">12 Избранное</span>
+                        <span class="user-favorites-number">12 </span>
                         <span class="visually-hidden">Избранное</span>
                     </a>
                 </li>
@@ -45,7 +43,7 @@
         <h1 class="visually-hidden">Каталог гостиниц Седоны</h1>
         <section class="catalog">
             <div class="catalog-filter filter" data-test="catalog">
-                <h2 class="filter-title">Гостиницы Седоны</h2>
+                <h2 class="page-heading">Гостиницы Седоны</h2>
                 <ul class="breadcrumbs-list list-reset">
                     <li class="breadcrubs-item">
                         <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html">
@@ -165,8 +163,8 @@
                     </li>
 
                     <li class="hotels-item">
-                        <figure class="hotels-img" href="images/hotel-2.jpg">
-                            <img src="#" width="300" height="212" alt="Отель Villas at Poco Diablo">
+                        <figure class="hotels-img" href="#">
+                            <img src="images/hotel-2.jpg" width="300" height="212" alt="Отель Villas at Poco Diablo">
                         </figure>
 
                         <a class="hotels-link" href="#">
@@ -177,7 +175,7 @@
                         <p class="hotels-text hotels-text-price">От 5000 ₽</p>
 
                         <a class="button hotels-button hotels-more" href="#">Подробнее</a>
-                        <button class="button button-light hotels-button hotels-favorites" type="button">В избранное</button>
+                        <button class="button button-light hotels-button hotels-favorites button-green" type="button">В избранном</button>
 
                         <p class="hotels-rating-star hotels-rating-star-4">
                             <span class="visually-hidden">4 звезды из 5.</span>
@@ -186,8 +184,8 @@
                     </li>
 
                     <li class="hotels-item">
-                        <figure class="hotels-img" href="images/hotel-3.jpg">
-                            <img src="#" width="300" height="212" alt="Отель Desert Quail Inn">
+                        <figure class="hotels-img" href="#">
+                            <img src="images/hotel-3.jpg" width="300" height="212" alt="Отель Desert Quail Inn">
                         </figure>
 
                         <a class="hotels-link" href="#">
@@ -208,7 +206,7 @@
 
                     <li class="hotels-item">
                         <figure class="hotels-img" href="#">
-                            <img src="#" width="300" height="212" alt="Отель GreenTree Inn">
+                            <img src="images/hotel-4.jpg" width="300" height="212" alt="Отель GreenTree Inn">
                         </figure>
 
                         <a class=" hotels-link" href="#">
@@ -255,14 +253,7 @@
                 </ul>
             </div>
         </section>
-
-
-
-
-
-
-
-        <section class="subscribe" data-test="subscribe">
+        <section class="subscribe subscribe-catalog" data-test="subscribe">
             <h2 class="subscribe-title page-title">Подпишитесь на рассылку</h2>
             <p class="subscribe-text page-text">Только полезная информация и никакого спама,
                 честное
@@ -296,7 +287,7 @@
                     </a>
                 </li>
             </ul>
-            <a> class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
             
             <a class="footer-dev" href="hhttps://htmlacademy.ru/">
                 <span class="visually-hidden">Сайт разработчика</span>
@@ -304,5 +295,6 @@
             </a>
 
         </footer>
+    </main>
 </body>
 </html>
