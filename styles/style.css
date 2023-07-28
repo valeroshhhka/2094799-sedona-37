@@ -44,13 +44,16 @@ body {
 }
 
 .page-header {
+    position: relative;
     color: #000000;
     background: #FFFFFF;
+    padding: 0 70px;
 }
 
 .navigation {
     display: flex;
 }
+
 .list-reset {
     margin: 0;
     padding: 0;
@@ -58,12 +61,16 @@ body {
 }
 
 .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 610px;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-link {
-    padding-right: 16px;
-    padding-left: 16px;
+    display: block;
+    padding: 20px 16px;
     font-size: 20px;
     line-height: 24px;
     color: #000000;
@@ -73,15 +80,21 @@ body {
 }
 
 .user-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 88px;
+    margin-right: 20px;
     margin-left: auto;
-  }
+}
 
 .user-link {
-    display: inline-block;
+    display: block;
+    min-width: 44px;
+    min-height: 64px;
     text-decoration: none;
-    width: 44px;
-    height: 44px;
     background-repeat: no-repeat;
+    background-position: center;
 }
   
 .user-link-search {
@@ -93,6 +106,10 @@ body {
 }
   
 .user-favorites-number {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 8px;
     font-size: 10px;
     line-height: 10px;
     color: #ffffff;
@@ -126,15 +143,19 @@ body {
 }
 
 .navigation-button {
-    margin-left: 24px;
     width: 160px;
     height: 36px;
+    margin-top: 14px;
+    margin-left: 24px;
+    width: 160px;
     border-radius: 0;
 }
 
 .logo {
-    margin-left: 70px;
-    margin-right: 28px;
+    display: block;
+    width: 140px;
+    height: 70px;
+   margin-bottom: -6px;
 }
 
 .hero {
